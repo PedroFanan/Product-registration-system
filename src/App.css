@@ -1,0 +1,16 @@
+/* Define estilos para todos los elementos 'form' en la página */
+form{
+  width: 500px; /* Establece un ancho fijo de 500 píxeles para el formulario */
+  margin: 30px auto; /* Establece un margen de 30 píxeles en la parte superior e inferior y centra el formulario horizontalmente en el centro de su contenedor */
+  text-align: center; /* Centra el texto dentro del formulario */
+}
+
+/* Define estilos para todos los elementos 'input' que están dentro de un formulario */
+form input{
+  margin-bottom: 5px; /* Agrega un espacio de 5 píxeles en la parte inferior de cada campo de entrada (para separarlos) */
+}
+
+/* Define estilos para los elementos 'input' que tienen un atributo 'type' igual a 'button' dentro de un formulario */
+form input[type='button']{
+  margin-right: 10px; /* Agrega un espacio de 10 píxeles a la derecha de los botones de tipo 'button' dentro del formulario (para separarlos de otros elementos de entrada) */
+}

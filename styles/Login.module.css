@@ -1,0 +1,44 @@
+.background{
+    background-color: #000000; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #bec0c7;
+}
+.error {
+    color: red ;
+    font-weight: bold;
+}
+
+.imageContainer {
+  position: relative;
+  text-align: center;
+}
+
+.imageContainer img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.imageContainer .sobreNosButton {
+  position: absolute;
+  bottom: 0px; 
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fe6513;
+  cursor: pointer;
+}
